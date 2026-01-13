@@ -1,6 +1,6 @@
 FROM maven:3-amazoncorretto-17
 
-LABEL maintainer="RADtech <info@radtechsoft.com>"
+LABEL maintainer="Ravresh <ravresh.chahal@gmail.com>"
 
 RUN amazon-linux-extras install docker
 RUN curl  -sSL https://sdk.cloud.google.com | bash
